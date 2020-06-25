@@ -20,10 +20,10 @@ void ft_putchar(char a)
 void ft_print_alphabet(void)
 {
 	char alp = 'z';
-	while(alp<='a')
+	while(alp>='a')
 	{
 		ft_putchar(alp);
-		al--;
+		alp--;
 	}
 }
 
